@@ -17,9 +17,9 @@ ul li a, figcaption a {
   color: inherit;
 }
 
+
 header > img {
   width: 100px;
-  display: flex;
 }
 
 header {
@@ -70,17 +70,17 @@ h2 + .user_review {
     border-top: 1px solid black;
 }
 
-nav {
+nav ul {
+  display: flex;
 
 }
 
 nav ul li {
-display: flex;
 }
 
 nav ul li a {
     padding: 20px;
-    /* display: block; */
+    display: block;
 
 }
 
